@@ -1,0 +1,70 @@
+# 网站设置
+title: IMKernel Python 文档
+description: IMKernel Python 库的官方文档
+baseurl: "/imkernel_python_docs" # 如果您的站点位于 username.github.io/projectname, 填写 "/projectname"
+url: "https://mermengm.github.io" # 替换为您的GitHub Pages URL
+
+# 主题设置 (如果您使用自定义主题)
+# theme: minima
+
+# 作者信息
+author:
+  name: Ermeng  
+  email: 2444622785@qq.com
+
+# 导航栏链接
+header_pages:
+  - about.md
+  - contact.md
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 排除的文件/文件夹
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# 集合
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+# 默认布局
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "document"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# 其他设置
+show_excerpts: true
+google_analytics: # 您的Google Analytics跟踪ID
+
+# 搜索设置
+search: true
