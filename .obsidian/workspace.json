@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "e468227b9eb75535",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f46e1f5947205e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64b648e0742951a1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "334ffa9132b2bc86",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3eee4c8e8d96c6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9e051224cd1088e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "12ed81034f03c370",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ec56726037f643c3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cd071c8e1b5353a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c4b3c60a7d36882",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "502de9a82f1e0851",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8dbf37552ef84fd5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b35bc0cb37a52f4c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "73f6ad0a8421e8e9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "64b648e0742951a1",
+  "lastOpenFiles": [
+    "docs/API参考.md",
+    "i18n/zh-Hans/docusaurus-plugin-content-docs/current/api_reference.md",
+    "i18n/zh-Hans/docusaurus-plugin-content-docs/current/quick_start.md",
+    "i18n/zh-Hans/docusaurus-plugin-content-docs/current/qu.md",
+    "i18n/zh-Hans/docusaurus-plugin-content-docs/current/install.md",
+    "docs/QuickStart.md",
+    "i18n/zh-Hans/docusaurus-plugin-content-docs/current/ApiReference.md",
+    "i18n/zh-Hans/docusaurus-plugin-content-docs/current/QuickStart.md",
+    "i18n/zh-Hans/docusaurus-plugin-content-docs/current/api_ref.md",
+    "i18n/zh-Hans/docusaurus-plugin-content-docs/current/API参考.md",
+    "i18n/zh-Hans/docusaurus-plugin-content-docs/current/Install.md",
+    "docs/概览.md",
+    "docs/tutorial-extras/translate-your-site.md",
+    "docs/tutorial-basics/create-a-page.md",
+    "docs/tutorial-basics/deploy-your-site.md",
+    "docs/tutorial-extras/img/docsVersionDropdown.png",
+    "docs/tutorial-extras/manage-docs-versions.md",
+    "[Pythonocc.md",
+    "[Project.md",
+    "i18n/zh-Hans/docusaurus-plugin-content-docs/current/intro.md",
+    "docs/intro.md",
+    "docs/tutorial-extras/img/localeDropdown.png",
+    "docs/tutorial-basics/create-a-document.md",
+    "docs/tutorial-basics/create-a-blog-post.md",
+    "docs/tutorial-basics/congratulations.md",
+    "docs/安装方法.md",
+    "docs/intro copy.md",
+    "docs/quick_start.md"
+  ]
+}
