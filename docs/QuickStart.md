@@ -1,3 +1,8 @@
+---
+sidebar_position: 3
+sidebar_label: Quick Start
+---
+# Quick Start
 The tutorial explains how to quickly create a three-dimensional, four-layer unified model using `imkernel`.
 
 # SystemModel

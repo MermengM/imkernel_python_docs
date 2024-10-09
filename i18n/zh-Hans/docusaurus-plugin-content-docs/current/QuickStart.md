@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+sidebar_label: 快速开始
+---
 # 快速开始
 > 该教程讲解了如何快速使用imkernel创建一个简单的三维四层统一模型。
 

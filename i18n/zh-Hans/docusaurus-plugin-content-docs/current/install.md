@@ -1,4 +1,8 @@
-pythonocc# 安装
+---
+sidebar_position: 1
+sidebar_label: 安装
+---
+# 安装
 ## 安装Imkernel
 ### 从PyPi安装
 
