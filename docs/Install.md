@@ -50,4 +50,4 @@ Provides some encapsulations of matplotlib. The following package needs to be in
 
 ```
 pip install matplotlib
-```
+``` 
