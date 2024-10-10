@@ -9,9 +9,9 @@ sidebar_label: 快速开始
 首先，导入 Model（三维四层统一模型）并创建实例：
 
 ```python
-from imkernel import System
+from imkernel import Model
 
-System = Model()
+Model = Model()
 ```
 # 单元模型
 ## 对象层
@@ -19,9 +19,9 @@ System = Model()
 添加到系统中：
 
 ```python
-System.element.create("system", "系统")
-System.element.create("subsystem", "子系统", "system", True)
-System.element.create("component", "组件", "subsystem")
+Model.element.create("system", "系统")
+Model.element.create("subsystem", "子系统", "system", True)
+Model.element.create("component", "组件", "subsystem")
 ```
 
 ### 管理参数
@@ -29,14 +29,14 @@ System.element.create("component", "组件", "subsystem")
 定义元素的参数组和参数：
 
 ```python
-System.element.parameter_group("system", ['特征', '标签'])
-System.element.parameter("system", [['feature1', 'feature2'], ['label1']])
+Model.element.parameter_group("system", ['特征', '标签'])
+Model.element.parameter("system", [['feature1', 'feature2'], ['label1']])
 ```
 
 ### 添加模型数据
 
 ```python
-System.element.add_model_data(['System1', 'Component1', 'Feature1'])
+Model.element.add_model_data(['System1', 'Component1', 'Feature1'])
 ```
 
 ### 创建方法
@@ -44,8 +44,8 @@ System.element.add_model_data(['System1', 'Component1', 'Feature1'])
 定义方法并关联程序：
 
 ```python
-System.method.create("optimization_method", "优化方法", None, True)
-System.method.set_program("optimization_method", [r"程序路径"])
+Model.method.create("optimization_method", "优化方法", None, True)
+Model.method.set_program("optimization_method", [r"程序路径"])
 ```
 
 ### 创建流程
@@ -53,14 +53,14 @@ System.method.set_program("optimization_method", [r"程序路径"])
 组织方法到流程中：
 
 ```python
-System.procedure.create("optimization_procedure", "优化流程", None, True)
-System.procedure.create("design_phase", "设计阶段", "optimization_procedure", True)
+Model.procedure.create("optimization_procedure", "优化流程", None, True)
+Model.procedure.create("design_phase", "设计阶段", "optimization_procedure", True)
 ```
 
 ### 关联流程和方法
 
 ```python
-System.procedure.relate("design_phase", "optimization_method", "component")
+Model.procedure.relate("design_phase", "optimization_method", "component")
 ```
 
 这份指南可以帮助你快速上手使用 `imkernel` 库。根据你的具体需求调整路径和参数。
